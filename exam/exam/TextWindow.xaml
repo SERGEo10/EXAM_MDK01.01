@@ -1,0 +1,9 @@
+﻿<Window x:Class="exam.TextWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Окно с текстом" Height="228.8" Width="1144.667">
+	<Grid Margin="0,0,0,6">
+		<TextBlock Text="Программный продукт компании «1С», предназначенный для автоматизации деятельности на предприятии. «1С:Предприятие» предназначено для автоматизации любого бизнес-процесса предприятия." HorizontalAlignment="Center" VerticalAlignment="Center"/>
+		<Button Content="Вернуться в главное окно" Click="BackToMainButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10"/>
+	</Grid>
+</Window>

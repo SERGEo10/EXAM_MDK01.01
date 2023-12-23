@@ -1,0 +1,9 @@
+﻿<Window x:Class="exam.ImageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Окно с изображением" Height="300" Width="400">
+    <Grid>
+        <Image Source="Image/1c.png" Stretch="Uniform"/>
+		<Button Content="Вернуться в главное окно" Click="BackToMainButton_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,10"/>
+    </Grid>
+</Window>
